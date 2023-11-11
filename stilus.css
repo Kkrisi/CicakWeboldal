@@ -29,7 +29,7 @@ body {
 }
 
 
-.fejlec ul {
+.menu ul {
     display: grid;
     grid-gap: 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -55,6 +55,9 @@ body {
 }
 .keresem {
     margin: 0 35%;
+}
+.centrifugamosogep {
+    padding: 0px;
 }
 
 
@@ -125,7 +128,7 @@ body {
     font-weight: lighter;
     font-size: 30px;
 }
-.kinti_cicak p {
+.kinti_cicak_szoveg {
     font-size: 16px;
     color: grey;
 }
@@ -153,7 +156,7 @@ body {
     float: right;
     border-radius: 8%;
 }
-.kinti_cicak p2 {
+.norveg_macska_szoveg, .maine_coon_szoveg {
     position: absolute;
     font-size: 23px;
 
@@ -188,7 +191,7 @@ body {
     font-weight: lighter;
     font-size: 30px;
 }
-.benti_cicak p {
+.benti_cicak_szoveg {
     font-size: 16px;
     color: grey;
 }
@@ -212,7 +215,7 @@ body {
     float: right;
     border-radius: 8%;
 }
-.benti_cicak p2 {
+.bengali_macska_szoveg, .meg_ez_a_cica_szoveg {
     position: absolute;
     font-size: 23px;
 
@@ -276,6 +279,9 @@ body {
     font-size: 18px;
     text-align: left;
 }
+.kisallat_grid ul {
+    padding: 0px 20px 0px 20px;
+}
 .kisallat_grid li {
     background-color: #de7000;
     padding: 15px;
@@ -335,6 +341,9 @@ body {
 .block_grid p {
     font-size: 18px;
     text-align: left;
+}
+.block_grid ul {
+    padding: 0px 20px 0px 20px;
 }
 .block_grid li {
     background-color: #333332;
